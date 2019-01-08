@@ -1,0 +1,29 @@
+#include<stdio.h>
+
+int main()
+{
+    int t,m,n,i,j,s,x,a[102];
+    scanf("%d",&t);
+    while(t--)
+    {
+              for(i=1;i<102;i++) a[i]=0;
+              scanf("%d %d",&m,&n);
+              while(m--)
+              {
+                     scanf("%d %d",&x,&i);
+                     a[i]+=x;
+              }
+              while(n--)
+              {
+                     scanf("%d %d",&x,&i);
+                     a[i]-=x;
+              } 
+              s=0;
+              for(i=1;i<101;i++)
+              {
+                   if(a[i]<0) s+=-a[i];
+              }
+              printf("%d\n",s);
+              }
+    return 0;
+    }
