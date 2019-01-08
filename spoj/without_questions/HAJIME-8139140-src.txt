@@ -1,0 +1,1 @@
+typedef/**/struct{unsigned/**/aku;char*/**/const/**/soku;}zan; struct{unsigned(aku);char*const(soku);}typedef(zan);

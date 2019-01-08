@@ -1,0 +1,1 @@
+main(){int t,a;scanf("%d",&t);while(t--){scanf("%d",&a);printf("%.5f\n",0.5*(1-(double)1/(a*a+a+1)));}return 0;}    
